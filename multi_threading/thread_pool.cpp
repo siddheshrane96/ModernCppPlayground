@@ -103,7 +103,6 @@ private:
 
     void worker()
     {
-        /// QUESTION: Does this while loop cause any overhead?
         while(true)
         {
             std::function<void()> task;
